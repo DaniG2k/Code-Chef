@@ -1,5 +1,6 @@
 def lapindrome?(string)
   len = string.length
+  return 'YES' if len == 1
   if len.even?
     s1 = string[0..(len-1)/2]
     s2 = string[len/2..-1]
